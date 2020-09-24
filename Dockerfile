@@ -5,4 +5,5 @@ RUN apt-cache search wget && apt-cache search wget | grep wget && apt search wge
 RUN apt-cache show wget
 RUN apt-get install wget -y
 RUN apt-get install libpng-dev -y && apt-get install libjpeg-dev -y && apt-get install libwebp-dev -y
+RUN apt-get install curl -y
 RUN npm install gulp -g
